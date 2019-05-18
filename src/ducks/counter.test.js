@@ -8,7 +8,7 @@ describe("counter", () => {
   });
 });
 describe("decrease", () => {
-    describe("counter", () => {
+  describe("counter", () => {
     it("increases count inside of the state", () => {
       expect(reducer(undefined, decrease())).toEqual({
         count: -1
